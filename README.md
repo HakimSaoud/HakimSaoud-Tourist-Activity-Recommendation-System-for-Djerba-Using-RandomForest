@@ -14,7 +14,7 @@ This project is a **Streamlit-based web application** that recommends tourist ac
 - Duration of Stay (Short, Medium, Long)
 - Accessibility (Walking, Public Transport, Car Rental)
 
-The system uses a **RandomForestClassifier** with **SMOTE** for handling class imbalance and achieves an accuracy of **over 90%**!
+The system uses a **RandomForestClassifier** and achieves an accuracy of **over 90%**!
 
 ---
 
@@ -50,7 +50,6 @@ The system uses a **RandomForestClassifier** with **SMOTE** for handling class i
 - **Scikit-learn**: For machine learning (RandomForestClassifier, GridSearchCV).
 - **Pandas**: For data manipulation and preprocessing.
 - **NumPy**: For numerical computations.
-- **Imbalanced-learn (SMOTE)**: For handling class imbalance.
 
 ---
 
