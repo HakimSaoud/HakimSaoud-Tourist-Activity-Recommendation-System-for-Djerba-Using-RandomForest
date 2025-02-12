@@ -2,20 +2,7 @@
 
 Welcome to the **Tourist Activity Recommendation System for Djerba**! This project uses machine learning to recommend personalized activities for tourists visiting Djerba, Tunisia, based on their preferences. Whether you're looking for relaxation, adventure, or cultural experiences, this system has you covered!
 
----
-
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [How It Works](#how-it-works)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-
----
+![cap](Capture.PNG)
 
 ## Overview 🌟
 
