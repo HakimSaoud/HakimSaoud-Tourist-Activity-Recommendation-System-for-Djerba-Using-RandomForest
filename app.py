@@ -3,10 +3,13 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
 
+
+
+
 df = pd.read_csv('Djerba_Tourist_Activities_Large.csv')
 
 
-df_encoded = pd.get_dummies(df, columns=['Tourist_Type' ,'Interest_Category'    ,'Budget','Season','Duration_of_Stay','Accessibility'])
+df_encoded = pd.get_dummies(df, columns=['Tourist_Type' ,'Interest_Category','Budget','Season'])
 df_encoded.head()
 
 X = df_encoded.drop(columns='Recommended_Activity')
@@ -23,8 +26,6 @@ Tourist_Type =st.selectbox("Select your type of group ",["Solo", "Couple", "Fami
 Interest_Category = st.selectbox('Select your category', ['Relaxation', 'Adventure', 'Culture'])
 Budget = st.selectbox('Select your budget', ['Low', 'Medium', 'High'])
 Season = st.selectbox('Select your season', ['Spring', 'Fall', 'Summer','Winter'])
-Duration_of_Stay = st.selectbox('Select your duration of stay', ['Short', 'Medium','Long'])
-Accessibility = st.selectbox('Select your accessibility', ['Walking', 'Public Transport','Car Rental'])
 
 
 
@@ -33,8 +34,6 @@ user_input ={
     'Interest_Category':Interest_Category,
     'Budget':Budget,
     'Season':Season,
-    'Duration_of_Stay':Duration_of_Stay,
-    'Accessibility':Accessibility
 }
 user_input_encoded = pd.DataFrame([user_input])
 user_input_encoded = pd.get_dummies(user_input_encoded)
