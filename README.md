@@ -6,6 +6,8 @@ Welcome to the **Tourist Activity Recommendation System for Djerba**! This proje
 
 ## Overview 🌟
 
+
+
 This project is a **Streamlit-based web application** that recommends tourist activities in Djerba based on user inputs such as:
 - Tourist Type (Solo, Couple, Family, Group)
 - Interest Category (Relaxation, Adventure, Culture)
